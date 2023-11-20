@@ -1,0 +1,249 @@
+.html {
+    padding: 0;
+    margin: 0;
+}
+
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 27px ;  
+    margin: 20px 50px 40px 80px;
+}
+
+.sidebar--logo img {
+    width :197.93px;
+    height : 28.27px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.sidebar--menu {
+    display: flex;
+    list-style: none; 
+    align-items: center; 
+    margin: 0;
+}
+
+.sidebar--menu li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin:  0 50px;
+    color: #444B59;
+    cursor: pointer;
+}
+
+.fa-angle-down {
+    width: 12px;
+    margin-left: 4px;
+    position: relative;
+    top: 2px;
+}
+
+.fa-house-chimney {
+    margin: auto 0;
+    color: #444B59;
+    cursor: pointer;
+}
+
+/* body  */
+.wrap {
+    margin: 20px 10px 0 80px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.login {
+    flex: 2;
+}
+
+.login h2 {
+    font-weight: 800;
+    color: #444B59;
+    margin: 20px 0 10px 0;
+}
+
+.login h3 {
+    margin-top: 0;
+    font-weight: 400;
+    color: #444B59;
+    font-size: 17px;
+    letter-spacing : 3px;
+} 
+
+.login h3 a{
+    color: #8699DA;
+    text-decoration: none;
+} 
+
+.username p {
+    font-weight: 500;
+    font-size: 19px;
+    color: #444B59;
+    margin: 40px 0 6px 0px;
+}
+
+.username input {
+    position: relative;
+    background: none;
+    font-size: 20px;
+    padding: 10px 40px 10px 14px;
+    display: block;
+    width: 250px;
+    border-radius: 40px;
+    border: 1px solid #789ADE;
+    outline: none;
+    text-align: left;
+}
+
+.username input::placeholder {
+    color: #C8D3F9;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 16px;
+    top: 15px;
+}
+
+
+.password p {
+    font-weight: 500;
+    font-size: 19px;
+    color: #444B59;
+    margin: 10px 0 6px 0px;
+}
+
+.password input {
+    position: relative;
+    background: none;
+    font-size: 20px;
+    padding: 10px 40px 10px 14px;
+    display: block;
+    width: 250px;
+    border-radius: 40px;
+    border: 1px solid #789ADE;
+    outline: none;
+    text-align: left;
+}
+
+.password input::placeholder {
+    color: #C8D3F9;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 16px;
+    top: 15px;
+}
+
+.hidepassword {
+    display: flex;
+    justify-content: space-between;
+    width: 275px;
+    margin: 0 10px 0 16px;
+    position: relative;
+    top: -30px;
+}
+
+.ellipsepassword img {
+    color: #789ADE;
+    color: #789ADE;
+    width: 8px;
+    margin: 0 2px;
+}
+
+.fa-eye-slash {
+    color: #789ADE;
+}
+
+/* remember */
+.remember {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 10px 0 40px 0;
+}
+
+.remember--check {
+    display: flex;
+}
+
+.remember--check input {
+    width: 22px;
+    margin: 0 10px 0 0;
+    background-color: #9EB0EA;
+    border: 1px solid #789ADE;
+}
+
+.remember--check p{
+    color: #444B59;
+    margin: 1px 0 0 0;
+    font-size: 13px; 
+}
+
+.remember a {
+    text-decoration: none;
+    color: #8699DA;
+}
+
+.sign-in {
+    width: 300px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #8699DA;
+    padding: 12px 0;
+    border-radius: 40px;
+    border: 1px solid #789ADE;
+}
+
+.line-continues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 16px 0 10px 0;
+}
+
+.line {
+    width: 75px;
+    height: 1px;
+    background-color:#789ADE;
+}
+
+.line-continues p {
+    color: #444B59;
+    margin: 0 4px;
+    font-size: 14px;
+}
+
+.social--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.social--icon img {
+    width: 250px;
+}
+
+/* background  */
+.background {
+    display: flex;
+    flex: 4;
+    justify-content: right;
+}
+
+.background img {
+    width: 630px;
+    margin: 0px 40px 0 0;
+}
